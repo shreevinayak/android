@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/url"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <Button
+        android:layout_toEndOf="@+id/url"
+        android:id="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigate" />
+
+    <Button
+        android:layout_below="@+id/go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialer"
+        android:text="Start Dialer"/>
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="200dp"
+        android:layout_below="@+id/dialer"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:inputType="text"
+        android:autofillHints="" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fact"
+        android:layout_toRightOf="@+id/num"
+        android:layout_marginTop="100dp"
+        android:text="Factorial"/>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:gravity="center">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Single Radio Buttons"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Radio Button 1"/>
+    <TableRow>
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Radio Button 2"/>
+    </TableRow>
+    <TableRow android:gravity="center">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Radio Buttons inside RadioGroup"
+            android:gravity="center_horizontal"/>
+    </TableRow>
+    <TableRow>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Radio Button 1"/>
+            <RadioButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Radio Button 2"/>
+        </RadioGroup>
+    </TableRow>
+</TableLayout>
