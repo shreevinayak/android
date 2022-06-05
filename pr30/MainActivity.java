@@ -32,7 +32,7 @@ public class email extends Activity {
          emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] { rEmail });
          emailIntent.putExtra(Intent.EXTRA_SUBJECT, sub);
          emailIntent.putExtra(Intent.EXTRA_TEXT, mess);
-         emailIntent.setType("message/rft822"); // To declare it as email
+         emailIntent.setType("message/rfc822"); // To declare it as email
 
          startActivity(emailIntent);
 
